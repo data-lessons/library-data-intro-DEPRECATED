@@ -16,7 +16,7 @@ So the following regular expression will find:
 - `foobar\b` will match `foobar` and find `666foobar`
 - `\bfoobar\b` will find `foobar`
 
-`\` is used to escape the proceeding character when that character is a special character. So, for example, a regular expression that found `.com` would be `\.com` because `.` is a special character that matches any character.
+`\` is used to escape the following character when that character is a special character. So, for example, a regular expression that found `.com` would be `\.com` because `.` is a special character that matches any character.
 
 _____
 ### Regex Answers
