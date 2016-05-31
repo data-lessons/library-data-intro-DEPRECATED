@@ -18,13 +18,13 @@ _____
 - `\b` adds a word boundary
 - `^` defines the start of the string
 - `$` defines the end of the string
-- `*` matches when the preceeding character appears any number of times including zero
-- `+` matches when the preceeding character appears any number of times excluding zero
-- `?` matches when the preceeding character appears one or zero times
-- `{VALUE}` matches the preceeding character the number of times define by VALUE; ranges can be specified with the syntax `{VALUE,VALUE}`
+- `*` matches when the preceding character appears any number of times including zero
+- `+` matches when the preceding character appears any number of times excluding zero
+- `?` matches when the preceding character appears one or zero times
+- `{VALUE}` matches the preceding character the number of times define by VALUE; ranges can be specified with the syntax `{VALUE,VALUE}`
 - `|` simply means or
 
-Check you regex with:
+Check your regex with:
 - regex101 https://regex101.com/
 - rexegper http://regexper.com/
 - myregexp http://myregexp.com/

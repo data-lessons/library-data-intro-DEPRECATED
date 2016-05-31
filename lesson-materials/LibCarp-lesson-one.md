@@ -210,10 +210,10 @@ Then there are: **SLIDE**
 
 Other useful special characters are **SLIDE**:
 
-- `*` matches when the proceeding character appears any number of times including zero
-- `+` matches when the proceeding character appears any number of times excluding zero
-- `?` matches when the proceeding character appears one or zero times
-- `{VALUE}` matches the proceeding character the number of times define by VALUE; ranges can be specified with the syntax `{VALUE,VALUE}`
+- `*` matches when the preceding character appears any number of times including zero
+- `+` matches when the preceding character appears any number of times excluding zero
+- `?` matches when the preceding character appears one or zero times
+- `{VALUE}` matches the preceding character the number of times define by VALUE; ranges can be specified with the syntax `{VALUE,VALUE}`
 - `|` means or.
 
 {Questions}: So, what are these going to match?
@@ -230,43 +230,43 @@ Other useful special characters are **SLIDE**:
 
 What does `Fr[ea]nc[eh]` match?
 
-- this matches `France`, `French`, `Frence`, and `Franch`. It also matches any string that had characters either side of these words so `Francer`, `dakkldakFrench`, or `Franch911`.
+- this matches `France`, `French`, `Frence`, and `Franch`. It would find words where there were characters either side of these so `Francer`, `dakkldakFrench`, or `Franch911`.
 
-What does `Fr[ea]nc[eh]/` match?
+What does `Fr[ea]nc[eh]$` match?
 
-- this matches `France`, `French`, `Frence`, and `Franch`. It also matches any string that had character before these words, so `dakkldakFrench` (but not `Francer` or `Franch911`).
+- this matches `France`, `French`, `Frence`, and `Franch` at the end of a string. It would find words where there were characters before these so `dakkldakFrench`.
 
 What would match strings that begin with `French` and `France` only?
 
-- `^France/|^French/`
+- `^France|^French` This would also find words where there were characters after `French` such as `Frenchness`.
 
-How do you match the words `colour` and `color` (case insensitive)?
+How do you match the whole words `colour` and `color` (case insensitive)?
 
-- There are two ways of thinking about this. In real life, you *should* only come across the case insensitive variations `colour`, `color`, `Colour`, `Color`, `COLOUR`, and `COLOR`. So one option would be `^[Cc]olou?r$|COLOU?R$`. However, you can also use `/colou?r/i` to find all case insensitive matches.
+- There are two ways of thinking about this. In real life, you *should* only come across the case insensitive variations `colour`, `color`, `Colour`, `Color`, `COLOUR`, and `COLOR`. So one option would be `\b[Cc]olou?r\b|\bCOLOU?R\b`. However, you can also use `/colou?r/i` to find all case insensitive matches.
 
 How would you find `headrest` and `head rest` but not `head  rest` (that is, with two spaces between `head` and `rest`?
 
-- `/head\s?rest/`. Note this will also match zero or one tabs or newline characters, but it should work in most real world cases :)
+- `head\s?rest` Note this will also match zero or one tabs or newline characters, but it should work in most real world cases :)
 
 How would you find a 4 letter word that ends a string and is preceded by at least one zero?
 
-- `/0+[a-z]{4}$`
+- `0+[a-z]{4}$`
 
 How do you match any 4 digit string anywhere?
 
--`\d{4}`
- 
+- `\d{4}`. Note this will match 4 digit strings only but will find them within longer strings of numbers.
+
 How would you match the date format `dd-MM-yyyy`?
 
-- `/\d{2}-\d{2}-\d{4}\/`
+- `\b\d{2}-\d{2}-\d{4}\b` In most real world situations, you are likely to want word bounding here (but it may depend on your data).
 
 How would you match the date format `dd-MM-yyyy` or `dd-MM-yy` at the end of a string only?
 
-- `/\d{2}-\d{2}-\d{2,4}$`
+- `\d{2}-\d{2}-\d{2,4}$`
 
 How would you match publication formats such as `British Library : London, 2015` and `Manchester University Press : Manchester, 1999`?
 
-- `/.* : .*, \d{4}/`
+- `.* : .*, \d{4}` You will find that this matches any text you put before `British` or `Manchester`. In this case, this regular expression does a good job on the first look up and may be need to be refined on a second depending on your real world application.
 
 _____
 ## Next week
@@ -289,4 +289,3 @@ Owen Stephens, "Working with Data using OpenRefine", *Overdue Ideas" (19 Novembe
 Andromeda Yelton, "Coding for Librarians: Learning by Example", *Library Technology Reports* 51:3 (April 2015), doi: [10.5860/ltr.51n3](http://dx.doi.org/10.5860/ltr.51n3)
 
 Fiona Tweedie, "Why Code?", *The Research Bazaar* (October 2014), [http://melbourne.resbaz.edu.au/post/95320810834/why-code](http://melbourne.resbaz.edu.au/post/95320810834/why-code)
-
