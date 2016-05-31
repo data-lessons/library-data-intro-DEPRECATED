@@ -16,7 +16,7 @@ So the following regular expression will find:
 - `foobar\b` will match `foobar` and find `666foobar`
 - `\bfoobar\b` will find `foobar`
 
-`\` is used to escape the proceeding (yes I mean *proceeding* this time...) character when that character is a special character. So, for example, a regular expression that found `.com` would be `\.com` because `.` is a special character that matches any character.
+`\` is used to escape the proceeding character when that character is a special character. So, for example, a regular expression that found `.com` would be `\.com` because `.` is a special character that matches any character.
 
 _____
 ### Regex Answers
@@ -48,7 +48,7 @@ How would you find a 4 letter word that ends a string and is preceded by at leas
 How do you match any 4 digit string anywhere?
 
 - `\d{4}`. Note this will match 4 digit strings only but will find them within longer strings of numbers.
- 
+
 How would you match the date format `dd-MM-yyyy`?
 
 - `\b\d{2}-\d{2}-\d{4}\b` In most real world situations, you are likely to want word bounding here (but it may depend on your data).
