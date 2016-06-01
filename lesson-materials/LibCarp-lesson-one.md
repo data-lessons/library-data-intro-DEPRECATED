@@ -1,7 +1,5 @@
 # Library Carpentry Week One: Some Basics
 
-1730-2030, Monday 9 November, City University London
-
 _____
 ##Lesson Plan
 
@@ -10,12 +8,13 @@ _____
 
 Conducted as attendees enter the room
 
-Thinking about the programme as a whole, please rate your skill level. Would you say that you know:
+Thinking about the program as a whole (the use of regular expressions, the command line, 
+Git and OpenRefine), please rate your skill level. Would you say that you know:
 
 a) Nothing
-b) A Little
+b) A little
 c) Lots
-d) Lots and Lots
+d) Lots and lots
 
 _____
 ### Overview
