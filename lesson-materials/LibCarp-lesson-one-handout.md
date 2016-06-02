@@ -69,27 +69,27 @@ This multiple choice quiz is designed to embed the regex knowledge you learned d
 
 Q1. What is the special character that matches zero or more specific characters
 
-- A) ^
-- B) #
-- C) *
+- A) `^`
+- B) `#`
+- C) `*`
 
 Q2. Which of the following matches any space, tab, or newline?
 
-- A) \s
-- B) \b
-- C) $
+- A) `\s`
+- B) `\b`
+- C) `$`
 
 Q3. How do you match the string `Foobar` appearing at the beginning of a line?
 
-- A) $Foobar
-- B) ^Foobar
-- C) #Foobar
+- A) `$Foobar`
+- B) `^Foobar`
+- C) `#Foobar`
 
 Q4. How do you match the word `Foobar` appearing at the beginning of a line?
 
-- A) ^Foobar\d
-- B) ^Foobar\b
-- C) ^Foobar\w
+- A) `^Foobar\d`
+- B) `^Foobar\b`
+- C) `^Foobar\w`
 
 Q5. What does the regular expression `[a-z]` match?
 
@@ -99,41 +99,41 @@ Q5. What does the regular expression `[a-z]` match?
 
 Q6. Which of these will match the strings `revolution`, `revolutionary`, and `revolutionaries`?
 
-- A) Revolution[a-z]?
-- B) Revolution[a-z]*
-- C) Revolution[a-z]+
+- A) `Revolution[a-z]?`
+- B) `Revolution[a-z]*`
+- C) `Revolution[a-z]+`
 
 Q7. Which of these will match the strings `revolution`, `Revolution`, and their plural variants only?
 
-- A) [rR]evolution[s]+
-- B) revolution[s]?
-- C) [rR]evolution[s]?
+- A) `[rR]evolution[s]+`
+- B) `revolution[s]?`
+- C) `[rR]evolution[s]?`
 
 Q8. What regular expression matches the strings `dog` and `cat`?
 
-- A) dog|cat
-- B) dog,cat
-- C) dog | cat
+- A) `dog|cat`
+- B) `dog,cat`
+- C) `dog | cat`
 
 Q9. What regular expression matches the whole words `dog` and `cat`?
 
-- A) \bdog|cat\b
-- B) \bdog\b | \bcat\b
-- C) \bdog\b|\bcat\b
+- A) `\bdog|cat\b`
+- B) `\bdog\b | \bcat\b`
+- C) `\bdog\b|\bcat\b`
 
 Q10. What do we put after a character to match strings that where that character appears 2 to 4 times in sequence?
 
-- A) {2,4}
-- B) {2-4}
-- C) [2,4]
+- A) `{2,4}`
+- B) `{2-4}`
+- C) `[2,4]`
 
-11. The regular expression `\d{4}` will match what?
+Q11. The regular expression `\d{4}` will match what?
 
 - A) Any four character sequence?
 - B) Any four digit sequence?
 - C) The letter `d` four times?
 
-12. If brackets are used to define a group, what would match the regular expression `(,\s[0-9]{1,4}){4},\s[0-9]{1,3}\.[0-9]`?
+Q12. If brackets are used to define a group, what would match the regular expression `(,\s[0-9]{1,4}){4},\s[0-9]{1,3}\.[0-9]`?
 
 - A) , 135, 1155, 915, 513, 18.8
 - B) , 135, 11557, 915, 513, 18.8
