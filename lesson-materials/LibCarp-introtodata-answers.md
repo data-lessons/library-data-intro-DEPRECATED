@@ -1,4 +1,4 @@
-# Library Carpentry Week One: Some Basics
+# Library Carpentry Week One: Introduction to Data
 
 _____
 ### Exercise Answers

@@ -1,4 +1,4 @@
-# Library Carpentry Week One: Some Basics
+# Library Carpentry Week One: Introduction to Data
 
 _____
 ### Schedule
@@ -16,8 +16,8 @@ _____
 - `\w` matches and part of word character (equivalent to [A-Za-z0-9_] )
 - `\s` matches any space, tab, or newline
 - `\b` adds a word boundary
-- `^` defines the start of the string. So what you put after it will only match the first characters of a line or contents of a cell.
-- `$` defines the end of the string. So what you put after it will only match the last character of a line of contents of a cell.
+- `^` asserts the position at the start of the line. So what you put after it will only match the first characters of a line or contents of a cell.
+- `$` asserts the position at the end of the line. So what you put after it will only match the last character of a line of contents of a cell.
 - `*` matches when the preceding character appears any number of times including zero
 - `+` matches when the preceding character appears any number of times excluding zero
 - `?` matches when the preceding character appears one or zero times
