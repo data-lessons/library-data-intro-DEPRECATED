@@ -34,13 +34,23 @@ In order to kick start your exploration of software, this four module program wi
 
 #### Where to go for help
 
-**SLIDE** You are a big class. Thankfully each week there will be multiple ways of getting help. First, use your skill level stickers to identify people on your table who can help: you will all be following along from the same worksheets, so someone around you may have got past the point you are stuck at. Second, there are plenty of helpers in the room, including me, who are there to help if those around you can't. You should all have access to coloured sticky notes: a pink sticky note on your laptop indicates to one of us that you need help (it might also alert the attention of someone around you!). So, please use them. Third, before each of the three following classes, you will be required to install software: all issues doing this should be reported to the Github issues page for the week, posting something there will alert someone to give you help in advance **bring up Github pages**. Fourth, and finally, as much of the programme is self-directed, we encourage you to finish up or repeat tasks after class time: if you run into issues, again report them to the relevant Github issues page.
+**SLIDE** 
+
+First, use your skill level stickers to identify people on your table who can help: you will all be following along from the same worksheets, so someone around you may have got past the point you are stuck at. 
+
+Second, there are helpers there to help if those around you can't. You should all have access to coloured sticky notes: a pink sticky note on your laptop indicates that you need help (it might also alert the attention of someone around you!). So, please use them. 
+
+Third, before each of the three following classes, you may be required to install software: all issues doing this should be reported to the Github issues page for the week, posting something there will alert someone to give you help in advance **bring up Github pages**. 
+
+Fourth, and finally, as much of the program is self-directed, we encourage you to finish up or repeat tasks after class time: if you run into issues, again report them to the relevant Github issues page.
 
 #### Final points of admin
 
-**SLIDE** We will be in the same place each week, convening at the same time. I will be here each week, though those here to help may change.
+**SLIDE** 
 
-Most of the sessions will involve following along from a worksheet. Much of the time you will be encouraged to go along at your own pace. For some of you this will feel like a lot of material, for others it might not feel like enough. Remember that the session is introductory. If you finish early, our end time is not a hard stop, so you may of course leave. Alternatively, you might want to use the time to search online for more information or advanced skills guides. You may even wish to deepen your own skills by staying around and helping someone else out: there is nothing better for really getting to know something than teaching it to someone else! If you don't finish, don't worry, there are no prerequisites between classes and if you have time, you can always carry on at home.
+Most of the sessions will involve following along from a worksheet. Much of the time you will be encouraged to go along at your own pace. For some of you this will feel like a lot of material, for others it might not feel like enough. Remember that the session is introductory. If you finish early, our end time is not a hard stop, so you may of course leave. 
+
+Alternatively, you might want to use the time to search online for more information or advanced skills guides. You may even wish to deepen your own skills by staying around and helping someone else out: there is nothing better for really getting to know something than teaching it to someone else! If you don't finish, don't worry, there are no prerequisites between classes and if you have time, you can always carry on at home.
 
 Finally computers are stupid, can frustrate, and as you all have different machines it can be tricky to resolve problems. Please be patient, particularly if your issue is local. Stepping outside and taking a gulp of fresh air always helps.
 
