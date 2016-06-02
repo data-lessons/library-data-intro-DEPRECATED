@@ -3,9 +3,9 @@
 _____
 ### Schedule
 
-- Jargon Busting (1800-1845)
-- Foundations (1845-1930)
-- Regular Expressions (1930-2015)
+- Jargon Busting (45 minutes)
+- Foundations (45 minutes)
+- Regular Expressions (45 minutes)
 
 _____
 ### Regular Expressions
@@ -16,8 +16,8 @@ _____
 - `\w` matches and part of word character (equivalent to [A-Za-z0-9_] )
 - `\s` matches any space, tab, or newline
 - `\b` adds a word boundary
-- `^` defines the start of the string
-- `$` defines the end of the string
+- `^` defines the start of the string. So what you put after it will only match the first characters of a line or contents of a cell.
+- `$` defines the end of the string. So what you put after it will only match the last character of a line of contents of a cell.
 - `*` matches when the preceding character appears any number of times including zero
 - `+` matches when the preceding character appears any number of times excluding zero
 - `?` matches when the preceding character appears one or zero times
@@ -31,6 +31,7 @@ Check your regex with:
 
 Test yourself with:
 - Regex Crossword https://regexcrossword.com/
+- The Multiple Choice Quiz (below)
 
 #### Exercise
 
@@ -38,21 +39,21 @@ What does `Fr[ea]nc[eh]` match?
 
 What does `Fr[ea]nc[eh]$` match?
 
-What would match strings that begin with `French` and `France` only?
+What would match the strings `French` and `France` only that appear at the beginning of a line?
 
-How do you match the words `colour` and `color` (case insensitive)?
+How do you match the whole words `colour` and `color` (case insensitive)?
 
-How would you find `headrest` and `head rest` but not `head  rest` (that is, with two spaces between `head` and `rest`?
+How would you find the whole-word `headrest` and or the 2-gram `head rest` but not `head  rest` (that is, with two spaces between `head` and `rest`?
 
 How would you find a 4 letter word that ends a string and is preceded by at least one zero?
 
-How do you match any 4 digit string?
+How do you match any 4 digit string anywhere?
 
 How would you match the date format `dd-MM-yyyy`?
 
 How would you match the date format `dd-MM-yyyy` or `dd-MM-yy` at the end of a string only?
 
-How would you match publication formats such as `British Library : London, 2015` and `Manchester University Press : Manchester, 1999`?
+How would you match publication formats such as `British Library : London, 2015` and `Manchester University Press: Manchester, 1999`?
 
 _____
 ### Next Week
@@ -61,9 +62,12 @@ _____
 
 Windows users, see the section entitled 'Installing Git Bash' in the Programming Historian lesson [*Introduction to the Bash Command Line*](http://programminghistorian.org/lessons/intro-to-bash). OS X and Linux users, simply make sure you know how to find your 'Terminal'.
 
-#### Where to go for help
+_____
+### Multiple Choice Quiz
 
-Raise an issue on the Library Carpentry Week Two GitHub page https://github.com/LibraryCarpentry/week-two-library-carpentry/issues (note: you'll need to sign-up to GitHub to do this. As you'll need a GitHub account for week three, there is value in doing this now)
+This multiple choice quiz is designed to embed the regex knowledge your learned during this module. We recommend you work through it someone after class (within a week or so). Answers are on the answer sheet.
+
+
 
 _____
 ### References
