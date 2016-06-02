@@ -25,9 +25,9 @@ Welcome to Library Carpentry! This series of introductory workshops on software 
 
 The rationale for Library Carpentry is twofold. First, as Andromeda Yelton argues in her excellent recent [ALA Library Technology Report](http://journals.ala.org/ltr/issue/view/506) 'Coding for Librarians: learning by example', code is a means for librarians to take control of practice and to empower themselves and their organisation to meet user needs in flexible ways. Second, librarians play a crucial role in cultivating world class research. And in most research areas today world class research relies on the use of software. Librarians with software skills are then well placed to continue that cultivation of world class research.
 
-In order to kick start your exploration of software, this four week program will cover the following: **SLIDE**
+In order to kick start your exploration of software, this four module program will cover the following: **SLIDE**
 
-- week 1: Basics - jargon busting, data structures and the use of regular expressions
+- week 1: Basics - jargon busting, data structures, and the use of regular expressions
 - week 2: Controlling data using the command line (in the Unix Shell)
 - week 3: Versioning data (with Git)
 - week 4: Cleaning data (with [OpenRefine](http://openrefine.org/))
@@ -136,7 +136,7 @@ A similar style is used by news agencies such as a *The Guardian* newspaper:
 
 In archival catalogues, URLs structured by a single data element are often used. The NLA's TROVE structures its online archive using the format:
 
--   `ROOT/record/REF`
+-   `ROOT/record-type/REF`
 -   <http://trove.nla.gov.au/work/6315568>
 
 And the Old Bailey Online uses the format:
@@ -264,7 +264,7 @@ How would you match publication formats such as `British Library : London, 2015`
 - `.* : .*, \d{4}` You will find that this matches any text you put before `British` or `Manchester`. In this case, this regular expression does a good job on the first look up and may be need to be refined on a second depending on your real world application.
 
 _____
-## Next week
+## Next module
 
 **SLIDE**
 
@@ -272,7 +272,6 @@ Shell.
 
 Instructions of what to install per operating system on the Github page.
 
-Anyone who wants help now, we are happy to help.
 
 _____
 ### References
