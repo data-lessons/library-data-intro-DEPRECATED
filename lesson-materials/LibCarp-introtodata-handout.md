@@ -109,13 +109,13 @@ Q7. Which of these will match the strings `revolution`, `Revolution`, and their 
 - B) `revolution[s]?`
 - C) `[rR]evolution[s]?`
 
-Q8. What regular expression matches the strings `dog` and `cat`?
+Q8. What regular expression matches the strings `dog` or `cat`?
 
 - A) `dog|cat`
 - B) `dog,cat`
 - C) `dog | cat`
 
-Q9. What regular expression matches the whole words `dog` and `cat`?
+Q9. What regular expression matches the whole words `dog` or `cat`?
 
 - A) `\bdog|cat\b`
 - B) `\bdog\b | \bcat\b`
