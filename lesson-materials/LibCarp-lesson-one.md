@@ -25,36 +25,32 @@ Welcome to Library Carpentry! This series of introductory workshops on software 
 
 The rationale for Library Carpentry is twofold. First, as Andromeda Yelton argues in her excellent recent [ALA Library Technology Report](http://journals.ala.org/ltr/issue/view/506) 'Coding for Librarians: learning by example', code is a means for librarians to take control of practice and to empower themselves and their organisation to meet user needs in flexible ways. Second, librarians play a crucial role in cultivating world class research. And in most research areas today world class research relies on the use of software. Librarians with software skills are then well placed to continue that cultivation of world class research.
 
-In order to kick start your exploration of software, this four week programme will look at the following: **SLIDE**
+In order to kick start your exploration of software, this four week program will cover the following: **SLIDE**
 
-- week 1: Some Basics
-- week 2: Controlling Data (with the Shell)
-- week 3: Versioning Data (with Git)
-- week 4: Cleaning Data (with Open Refine)
+- week 1: Basics - jargon busting, data structures and the use of regular expressions
+- week 2: Controlling data using the command line (in the Unix Shell)
+- week 3: Versioning data (with Git)
+- week 4: Cleaning data (with [OpenRefine](http://openrefine.org/))
 
 #### Where to go for help
 
-**SLIDE** You are a big class. Thankfully each week there will be multiple ways of getting help. First, use your skill level stickers to identify people on your table who can help: you will all be following along from the same worksheets, so someone around you may have got past the point you are stuck at. Second, there are plenty of helpers in the room including me who are there to help if those around you can't. You should all have access to coloured sticky notes: a red sticky note on your laptop indicates to one of us that you need help (it might also alert the attention of someone around you!). So, please use them. Third, before each of the three following classes you will be required to install software: all issues doing this should be reported to the Github issues page for the week, posting something there will alert someone to give you help in advance **bring up Github pages**. Fourth, and finally, as much of the programme is self-directed we encourage you to finish up or repeat tasks after class time: if you run into issues, again report them to the relevant Github issues page.
+**SLIDE** You are a big class. Thankfully each week there will be multiple ways of getting help. First, use your skill level stickers to identify people on your table who can help: you will all be following along from the same worksheets, so someone around you may have got past the point you are stuck at. Second, there are plenty of helpers in the room, including me, who are there to help if those around you can't. You should all have access to coloured sticky notes: a pink sticky note on your laptop indicates to one of us that you need help (it might also alert the attention of someone around you!). So, please use them. Third, before each of the three following classes, you will be required to install software: all issues doing this should be reported to the Github issues page for the week, posting something there will alert someone to give you help in advance **bring up Github pages**. Fourth, and finally, as much of the programme is self-directed, we encourage you to finish up or repeat tasks after class time: if you run into issues, again report them to the relevant Github issues page.
 
 #### Final points of admin
 
 **SLIDE** We will be in the same place each week, convening at the same time. I will be here each week, though those here to help may change.
 
-Most of the sessions will involve following along from a worksheet. Much of the time you will be encouraged to go along at your own pace. For some of you this will feel like a lot of material, for others it might not feel like enough. Remember that the session is introductory. If you finish early our end time is not a hard stop, so you may of course leave. Alternatively, you might want to use the time to search online for more information or advanced skills guides. You may even wish to deepen your own skills by staying around and helping someone else out: there is nothing better for really getting to know something than teaching someone else! If you don't finish, don't worry, there are no prerequisites between classes and if you have time, you can always carry on at home or on the train.
-
-Tea, coffee, and snacks will be available at every session. Given the timing of the session you are welcome to bring some dinner with you (though you'll need to bring your own cutlery!)
+Most of the sessions will involve following along from a worksheet. Much of the time you will be encouraged to go along at your own pace. For some of you this will feel like a lot of material, for others it might not feel like enough. Remember that the session is introductory. If you finish early, our end time is not a hard stop, so you may of course leave. Alternatively, you might want to use the time to search online for more information or advanced skills guides. You may even wish to deepen your own skills by staying around and helping someone else out: there is nothing better for really getting to know something than teaching it to someone else! If you don't finish, don't worry, there are no prerequisites between classes and if you have time, you can always carry on at home.
 
 Finally computers are stupid, can frustrate, and as you all have different machines it can be tricky to resolve problems. Please be patient, particularly if your issue is local. Stepping outside and taking a gulp of fresh air always helps.
-
-Wifi: speak to Ernesto
 
 #### This week
 
 **SLIDE**
 
-- Jargon Busting (1800-1845)
-- Foundations (1845-1930)
-- Regular Expressions (1930-2015)
+- Jargon Busting (45 minutes)
+- Foundations (45 minutes)
+- Regular Expressions (45 minutes)
 
 _____
 ### Jargon Busting (Group Task)
@@ -77,8 +73,8 @@ _____
 
 This group task is an opportunity for you to get help understanding terms, phrases, or ideas around code or software development that you've come across and perhaps feel you should know better.
 
-- Start by getting into groups of 5 or 6.
-- Next make a big list of all the problem terms, phrases, and ideas that come up. Retain duplicates. Then (taking common words as a starting point) work together to try and explain what a term, phrase, or idea means (note: use both each other and the internet as a resource!). Make a note of those your group resolves and those you are still struggling with. **15 minutes**
+- Start by getting into groups of 4 or 5.
+- Next make a big list of all the problem terms, phrases, and ideas that come up. Retain duplicates. Then (taking common words as a starting point) work together to try to explain what a term, phrase, or idea means (note: use both each other and the internet as a resource!). Make a note of those your group resolves and those you are still struggling with. **15 minutes**
 - {Trainer}: alongside this make a note of common problem terms, phrases, and ideas that both do and do not map to what Library Carpentry will cover (paying special attention to common problems that will not be covered)}
 - Report back on an issue resolved by your group **1 minute each**
 - {Trainer}: Report on mapping exercise: what is and isn't going to be covered.
@@ -86,15 +82,15 @@ This group task is an opportunity for you to get help understanding terms, phras
 _____
 ### Foundations
 
-**SLIDE** Before we crack on with using the computational tools at our disposal, I want to spend some time on some foundation level stuff - a combination of best practice and generic skills that frame what we'll be doing for the next month.
+**SLIDE** Before we crack on with using the computational tools at our disposal, I want to spend some time on some foundation level stuff - a combination of best practice and generic skills that frame what we'll be doing over the nest stages of the program.
 
 #### The Computer is Stupid
 
-**SLIDE** This does not mean that the computer isn't useful. Given a repetitive task, a enumerative task, or a task that relies on memory it can produce results faster, more accurately, and less grudgingly than you or I. Rather when I say that you should keep in mind that the computer is stupid, I mean to say that computer only does what you tell it to. If it throws up an error it is often not your fault, rather in most cases the computer has failed to interpret what you mean because it can only work with what it knows (ergo, it is bad at interpreting). This is not to say that the people who told the computer what to tell you when it doesn't know what to do couldn't have done a better job with error messages, for they could. So keep in mind as we go along that if you find an error message frustrating it isn't the computer's fault that it is giving you an archaic and incomprehensible error message, it is person's.
+**SLIDE** This does not mean that the computer isn't useful. Given a repetitive task, an enumerative task, or a task that relies on memory, it can produce results faster, more accurately, and less grudgingly than you or I. Rather when I say that you should keep in mind that the computer is stupid, I mean to say that computer only does what you tell it to. If it throws up an error it is often not your fault, rather in most cases the computer has failed to interpret what you mean because it can only work with what it knows (ergo, it is bad at interpreting). This is not to say that the people who told the computer what to tell you when it doesn't know what to do couldn't have done a better job with error messages, for they could. So keep in mind as we go along that if you find an error message frustrating, it isn't the computer's fault that it is giving you an archaic and incomprehensible error message, it is a human person's.
 
 #### Why take an automated or computational approach
 
-**SLIDE** Otherwise known as the 'why not do it manually?' question. To start with, I'm not anti-manual. I do plenty of things manually that a machine could do in an automated way because either a) I don't know how to automate the task or b) I'm unlikely to repeat the task and estimate that automating it would take longer. However once you know you'll need to repeat a task you have a compelling reason to consider automating it. This is one of the main areas in which programmatic ways of doing outside of IT service environments are changing library practice. Andromeda Yelton, a US based librarian closely involved in the Code4Lib movement, recently put together an excellent American Library Association Library Technology Report called "Coding for Librarians: Learning by Example." The report is pitched at a real world relevance level, and in it Andromeda describes scenarios library professionals told her about where learning a little programming, usually learning ad-hoc, had made a difference to their work, to the work of their colleagues, and to the work of their library.
+**SLIDE** Otherwise known as the 'why not do it manually?' question. To start with, I'm not anti-manual. I do plenty of things manually that a machine could do in an automated way because either a) I don't know how to automate the task or b) I'm unlikely to repeat the task and estimate that automating it would take longer. However once you know you'll need to repeat a task, you have a compelling reason to consider automating it. This is one of the main areas in which programmatic ways of doing outside of IT service environments are changing library practice. Andromeda Yelton, a US based librarian closely involved in the Code4Lib movement, recently put together an excellent American Library Association Library Technology Report called "Coding for Librarians: Learning by Example." The report is pitched at a real world relevance level, and in it Andromeda describes scenarios library professionals told her about where learning a little programming, usually learning ad-hoc, had made a difference to their work, to the work of their colleagues, and to the work of their library.
 
 Main lessons:
 
@@ -102,13 +98,13 @@ Main lessons:
 - **The correct language to learn is the one that works in your local context**. There truly isn't a best language, just languages with different strengths and weaknesses, all of which incorporate the same fundamental principles;
 - **Consider the role of programming in professional development**. That is both yours and of those you manage;
 - **Knowing (even a little) code helps you evaluate projects that use code**. Programming can seem alien. Knowing some code makes you better at judging the quality of software development or planning activity that include software development
-- **Automate to make the time to do something else!** Taking the time to gather together even the most simple programming skills can save time to do more interesting stuff! (even if often that more interesting stuff is learning more programming skills...)
+- **Automate to make the time to do something else!** Taking the time to gather together even the most simple programming skills can save time to do more interesting stuff! (even if often that more interesting stuff is learning more programming skills ...)
 
 **SLIDE: Cost/benefit slide**
 
 #### Keyboard shortcuts are your friend
 
-**SLIDE** Though we will get more computational over the next 3 weeks, we can start our adventure into programming - as many of you will have already - with very simple things like keyboard shortcuts. We all have our favourites. Labour saving but also exploiting this stupid machine in best possible way. Alongside the very basic ones (ctrl+s for save; ctrl+c for copy; ctrl+x for cut; ctrl+v for paste) my favourite (in a Windows or Linux machines) is alt+tab, a keyboard shortcut that switches between programmes {Trainer: ask other helpers what their favourites are}. You can do all the lessons in Library Carpentry without keyboard shortcuts, but note that they'll likely come up a lot.
+**SLIDE** Though we will get more computational over the next 3 weeks, we can start our adventure into programming - as many of you will have already - with very simple things like keyboard shortcuts. We all have our favourites. Labour saving but also exploiting this stupid machine in the best possible way. Alongside the very basic ones (ctrl+s for save; ctrl+c for copy; ctrl+x for cut; ctrl+v for paste) my favourite (in a Windows or Linux machines) is alt+tab, a keyboard shortcut that switches between programs {Trainer: ask other helpers what their favourites are}. You can do all the lessons in Library Carpentry without keyboard shortcuts, but note that they'll likely come up a lot.
 
 #### Plain text formats are your friend
 
