@@ -121,7 +121,7 @@ Q9. What regular expression matches the whole words `dog` or `cat`?
 - B) `\bdog\b | \bcat\b`
 - C) `\bdog\b|\bcat\b`
 
-Q10. What do we put after a character to match strings that where that character appears 2 to 4 times in sequence?
+Q10. What do we put after a character to match strings where that character appears 2 to 4 times in sequence?
 
 - A) `{2,4}`
 - B) `{2-4}`
