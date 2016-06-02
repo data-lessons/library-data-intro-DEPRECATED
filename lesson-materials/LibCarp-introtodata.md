@@ -21,7 +21,7 @@ _____
 
 #### Introduction
 
-Welcome to Library Carpentry! This series of introductory workshops on software skills for librarians started life as an exploratory programme funded by the Software Sustainability Institute and supported by [Software Carpentry](http://software-carpentry.org/) and City University London. Thanks also go to the British Library and the University of Sussex where James Baker, who developed the workshops, worked worked when planning and delivering the workshops. The aim of Library Carpentry is to create a set of tools the community can manage, support, enrich, and reuse as it sees fit. Periodically during the sessions we will collect anonymous feedback that will go into improving the classes and ensuring that they best fit the evolving needs and requirements of the library and information science community.
+Welcome to Library Carpentry! This series of introductory workshops on software skills for librarians started life as an exploratory programme funded by the Software Sustainability Institute and supported by [Software Carpentry](http://software-carpentry.org/) and City University London. Thanks also go to the British Library and the University of Sussex where James Baker, who developed the workshops, worked when planning and delivering the workshops. The aim of Library Carpentry is to create a set of tools the community can manage, support, enrich, and reuse as it sees fit. Periodically during the sessions we will collect anonymous feedback that will go into improving the classes and ensuring that they best fit the evolving needs and requirements of the library and information science community.
 
 The rationale for Library Carpentry is twofold. First, as Andromeda Yelton argues in her excellent recent [ALA Library Technology Report](http://journals.ala.org/ltr/issue/view/506) 'Coding for Librarians: learning by example', code is a means for librarians to take control of practice and to empower themselves and their organisation to meet user needs in flexible ways. Second, librarians play a crucial role in cultivating world class research. And in most research areas today world class research relies on the use of software. Librarians with software skills are then well placed to continue that cultivation of world class research.
 
@@ -92,7 +92,7 @@ This group task is an opportunity for you to get help understanding terms, phras
 _____
 ### Foundations
 
-**SLIDE** Before we crack on with using the computational tools at our disposal, I want to spend some time on some foundation level stuff - a combination of best practice and generic skills that frame what we'll be doing over the nest stages of the program.
+**SLIDE** Before we crack on with using the computational tools at our disposal, I want to spend some time on some foundation level stuff - a combination of best practice and generic skills that frame what you'll encounter across Library Carpentry.
 
 **Trainer Note**: we recommend using this section as an opportunity to discuss foundational skills that you think are relevant.
 
