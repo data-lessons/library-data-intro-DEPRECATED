@@ -46,15 +46,15 @@ How would you match publication formats such as `British Library : London, 2015`
 _____
 ### Multiple Choice Quiz Answers
 
-Q1. C
-Q2. A
-Q3. B
-Q4. B
-Q5. C
-Q6. B
-Q7. C
-Q8. A
-Q9. C
-Q10. A
-Q11. B
-Q12. A
+- Q1. C
+- Q2. A
+- Q3. B
+- Q4. B
+- Q5. C
+- Q6. B
+- Q7. C
+- Q8. A
+- Q9. C
+- Q10. A
+- Q11. B
+- Q12. A
