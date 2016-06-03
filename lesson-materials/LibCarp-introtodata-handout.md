@@ -99,9 +99,9 @@ Q5. What does the regular expression `[a-z]` match?
 
 Q6. Which of these will match the strings `revolution`, `revolutionary`, and `revolutionaries`?
 
-- A) `Revolution[a-z]?`
-- B) `Revolution[a-z]*`
-- C) `Revolution[a-z]+`
+- A) `revolution[a-z]?`
+- B) `revolution[a-z]*`
+- C) `revolution[a-z]+`
 
 Q7. Which of these will match the strings `revolution`, `Revolution`, and their plural variants only?
 
