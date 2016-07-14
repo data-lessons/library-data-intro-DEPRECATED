@@ -1,3 +1,5 @@
+**NOTE: the master branch is now depreciated. The [gh-pages branch](https://github.com/data-lessons/library-data-intro/tree/gh-pages) is the default branch for this repo**
+
 ## Library Carpentry. Introduction to Data.
 
 This repository is for the Library Carpentry module Introduction to Data. It includes less plan, handouts, and indicative slides.
