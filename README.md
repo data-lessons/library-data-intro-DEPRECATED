@@ -1,3 +1,7 @@
+This material has now been moved to the Library Carpentry organisation.
+
+Find it here: https://github.com/LibraryCarpentry/lc-data-intro
+
 # Library Carpentry
 
 The Library Carpentry module '[Data Intro for Librarians](http://data-lessons.github.io/library-data-intro/)' is maintained by [Carmi Cronje](https://github.com/ccronje) and [James Baker](https://github.com/drjwbaker).
